@@ -1,20 +1,28 @@
+body {
+  overflow-x: hidden; 
+  
+}
+
 main {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 110px 258px 90px;
+  padding: 111px 50px 95px 49px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .header__links-list {
   padding-bottom: 4px;
   display: flex;
-  gap: 34px;
+  gap: 33px;
 }
 
 .header__links-list-item {
@@ -43,7 +51,7 @@ main {
   display: block;
   justify-self: center;
   align-self: center;
-  width: 138px;
+  width: 135px;
 }
 
 .header__address { 
@@ -69,6 +77,7 @@ main {
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
+  max-width: 1100px;
   align-items: center;
   width: 1100px;
   height: 757px;
@@ -107,6 +116,7 @@ main {
 .aligned-text_center {
   line-height: 1;
   text-align: center;
+  transform: translateY(-5px);
 }
 
 .letter-spacing-extended {
@@ -125,6 +135,7 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 105px;
+  transform: translateY(-5px);
   z-index: 2;
 }
 
@@ -152,12 +163,13 @@ main {
 }
 
 .lots {
-  margin-top: 186px;
-  padding: 0 232px;
+  padding: 180px 24px 120px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .lots__heading {
-  padding: 0 0 30px 38px;
+  padding: 0 0 31px 41px;
   font-size: 40px;
   line-height: 1;
 }
@@ -211,7 +223,7 @@ main {
 }
 
 .card__title {
-  margin-top: -3px;
+  margin-top: -1px;
   position: relative;
   z-index: 3;
   color: #FFF;
@@ -241,10 +253,10 @@ main {
 }
 
 .about {
-  margin-top: 154px;
+  margin-top: 34px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
+  column-gap: 26px;
   padding: 0 235px;
 }
 
@@ -291,23 +303,19 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 112px 160px 0 160px;
+  padding: 145px 160px 0 160px;
 }
 
 .footer__menu-list {
   padding-top: 36px;
   text-align: center;
+  text-decoration: none;
   list-style: none;
 }
 
-.footer__social-icon {
-  width: auto;
-  height: 48px;
-}
-
-.footer__menu-list {
-  text-align: center;
-  list-style: none;
+.footer__adress {
+  transform: translate(100px, 33px);
+  font-style: inherit;
 }
 
 .footer__menu-link {
@@ -320,16 +328,15 @@ main {
   text-decoration: none;
 }
 
-.footer__social-list {
-  padding-left: 60px;
-  padding-top: 25px;
-  display: flex;
-  gap: 48px;
-  list-style: none;
+.footer__social-icon { 
+  width: auto;
+  height: 48px;
 }
 
-.footer__adress {
-  margin-top: 68px;
-  margin-left: 100px;
-  font-style: inherit;
+.footer__social-list {
+  display: flex;
+  gap: 49px;
+  list-style: none;
+  padding-left: 60px;
+  padding-top: 25px;
 }
