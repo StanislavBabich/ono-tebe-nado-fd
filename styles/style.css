@@ -84,7 +84,7 @@ main {
   width: 1100px;
   height: 757px;
   margin: auto;
-  padding: 166px 25px 50px 50px;
+  padding: 164px 25px 50px 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -259,7 +259,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 26px;
-  padding: 0 235px;
+  padding: 0 50px;
 }
 
 .about__column {
