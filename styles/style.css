@@ -1,6 +1,6 @@
-body {
+body { 
 overflow-x: hidden; 
-}
+ }
 
 main {
 display: flex;
@@ -77,11 +77,10 @@ position: relative;
 background-image: url(../images/cover.jpg);
 background-position: center;
 background-size: cover;
-max-width: 1100px;
 align-items: center;
-width: 1100px;
-height: 757px;
-margin: auto;
+min-width: 1100px;
+min-height: 757px;
+margin: 0 auto;
 padding: 164px 25px 50px 50px;
 display: flex;
 flex-direction: column;
@@ -146,7 +145,7 @@ font-size: 22px;
 line-height: 28px;
 text-transform: uppercase;
 color: white;
-margin-left: -25px;
+margin-left: -27px;
  }
 
 .bet-button {
@@ -197,7 +196,7 @@ flex-direction: column;
 justify-content: space-between;
 gap: 33px;
 width: auto;
-height: 100%;
+min-height: 100%;
 padding: 50px 40px;
  }
 
@@ -238,6 +237,7 @@ text-transform: uppercase;
 position: relative;
 z-index: 3;
 color: #FFF;
+text-decoration: none;
 font-size: 20px;
 line-height: 1.2;
 margin-top: 2px;
@@ -245,7 +245,7 @@ margin-top: 2px;
 
 .lots__look-more-link {
 display: block;
-margin: 30px 0 0 40px;
+margin: 28px 0 0 40px;
 font-size: 20px;
 text-decoration-line: underline;
 text-underline-position: under;
@@ -270,6 +270,7 @@ grid-column: 2/4;
  }
 
 .about__logo {
+margin-top: -3px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -280,7 +281,7 @@ background-color: #000000;
  }
 
 .about__logo-image {
-width: 148px;
+width: 145px;
  }
 
 .about__title {
@@ -292,6 +293,7 @@ text-transform: uppercase;
  }
 
 .about__text {
+margin-top: -3px;
 display: flex;
 flex-direction: column;
 gap: 25px;
@@ -303,18 +305,17 @@ line-height: normal;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
-padding: 145px 0;
  }
 
 .footer__menu-list {
-padding-top: 36px;
+padding-top: 183px;
 text-align: center;
 text-decoration: none;
 list-style: none;
  }
 
 .footer__adress {
-transform: translate(50px, 33px);
+transform: translate(50px, 109px);
 font-style: inherit;
  }
 
@@ -337,6 +338,6 @@ width: auto;
 display: flex;
 gap: 49px;
 list-style: none;
-padding-left: 75px;
-padding-top: 25px;
+padding-left: 76px;
+padding-top: 173px;
  }
