@@ -14,13 +14,14 @@ main {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 111px 50px 95px 49px;
+  padding: 80px 50px 95px 49px;
   max-width: 1100px;
   margin: 0 auto;
+ 
 }
 
 .header__links-list {
-  padding-bottom: 4px;
+  padding-top: 6px;
   display: flex;
   gap: 33px;
 }
@@ -51,11 +52,12 @@ main {
   display: block;
   justify-self: center;
   align-self: center;
-  width: 135px;
+  width: 137px;
+  margin-top: 11px;
 }
 
 .header__address { 
-  margin-bottom: 3px;
+  margin-top: 5px;
   margin-left: 193px;
   font-style: inherit;
 }
@@ -82,7 +84,7 @@ main {
   width: 1100px;
   height: 757px;
   margin: auto;
-  padding: 165px 25px 50px 50px;
+  padding: 166px 25px 50px 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
