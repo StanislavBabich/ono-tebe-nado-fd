@@ -303,10 +303,10 @@ line-height: normal;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
-padding: 0 50px 95px 50px;
+padding: 0 50px 9px 50px;
 }
   
-.footer__menu-list { 
+.footer__menu-list {  
 margin-left: 7px;
 padding-bottom: 13px;
 text-align: center;
