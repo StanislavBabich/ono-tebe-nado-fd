@@ -1,4 +1,5 @@
 body { 
+box-sizing: border-box;
 overflow-x: hidden; 
 margin: 0 auto;
 max-width: 1100px;
@@ -15,7 +16,6 @@ display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
 padding: 77px 50px 95px 49px;
-max-width: 1100px;
 margin: 0 auto;
 }
 
@@ -79,7 +79,7 @@ background-image: url(../images/cover.jpg);
 background-position: center;
 background-size: cover;
 align-items: center;
-min-width: 1100px;
+width: 100%;
 margin: -6px auto -2px auto;
 padding: 167px 25px 46px 50px;
 display: flex;
@@ -96,7 +96,6 @@ z-index: 1;
 }
 
 .cover__title {
-width: 100%;
 display: flex;
 flex-direction: column;
 gap: 30px;
@@ -163,7 +162,6 @@ text-align: center;
 
 .lots {
 padding: 186px 24px 120px 24px;
-max-width: 1100px;
 margin: 0 auto;
 }
     
@@ -304,8 +302,6 @@ margin-top: 161px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
-min-height: 180px;
-min-width: 1100px;
 padding: 0 50px 82px 50px;
 }
     
