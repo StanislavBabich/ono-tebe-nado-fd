@@ -42,29 +42,27 @@ main {
 }
 
 .address {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-style: inherit
-}
-
-.address__item {
-  display: block;
+  font-style: normal;
+  list-style: none;
   font-size: 18px;
   line-height: 1.35;
-  text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.header__address {
-  text-decoration: none;
-  margin-bottom: 9px;
-  margin-left: 83px;
+.address__item {
+  display: flex;
+  text-decoration: underline;
 }
 
-.header__address-text {
+.address__text {
   text-decoration: none;
-  margin-left: 71px;
+}
+
+.header__address {
+  justify-self: end;
+  text-decoration: none;
+  margin-bottom: 9px;
+  margin-right: 37px;
 }
 
 .header__logo {
@@ -307,18 +305,11 @@ main {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 1px 0px 83px 0px;
+  padding: 1px 50px 83px 50px;
 }
 
 .footer__address {
-  justify-self: start;
-  margin-left: -53px;
   padding-top: 16px;
-}
-
-.footer__address-text {
-  text-decoration: none;
-  margin-left: 102px;
 }
 
 .footer__menu-list {
