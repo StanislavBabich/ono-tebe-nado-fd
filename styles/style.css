@@ -42,6 +42,8 @@ main {
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
   list-style: none;
   font-size: 18px;
@@ -50,7 +52,7 @@ main {
 }
 
 .address__item {
-  display: flex;
+  display: block;
   text-decoration: underline;
 }
 
